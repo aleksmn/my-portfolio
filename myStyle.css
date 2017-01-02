@@ -1,0 +1,43 @@
+.thumb {padding: 60px 10px; text-align: center; background: #fff;}
+.thumb:nth-child(even){background: #fff;}
+h1,h2{margin: 30px 0;}
+.container-fluid, .container{}
+.thumb:nth-child(odd){clear: both;}
+
+
+body {
+	color: #2d0030;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+#portfolio {
+	margin-top: 10px;
+	background-color: #51e56b;
+}
+.portfolioimg {
+    margin-top: 10px;
+}
+
+#about {
+	background-color: #f0ef46;
+}
+
+#contact {
+	background-color: #00ffa2;
+}
+
+/* Carousel */
+
+#myCarousel {
+    margin-top: 50px;
+}
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
