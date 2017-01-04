@@ -1,9 +1,8 @@
 .thumb {padding: 60px 10px; text-align: center; background: #fff;}
 .thumb:nth-child(even){background: #fff;}
-h1,h2{margin: 30px 0;}
-.container-fluid, .container{}
 .thumb:nth-child(odd){clear: both;}
 
+h1,h2{margin: 30px 0;}
 
 body {
     position: relative;
@@ -36,14 +35,23 @@ h1 {
 
 /* Carousel */
 
-#myCarousel {
-    margin-top: 50px;
+#mycarousel {
+    margin-top: 20px;
 }
+
+#mycarousel a {
+    color: white;
+    text-decoration: underline;
+}
+
+
 .full-screen {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
+
 
 
 /* Contact Form */
@@ -156,7 +164,7 @@ h1 {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     margin:auto;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
     box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
     -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
@@ -214,3 +222,4 @@ input {
      -moz-transition-duration: 0.5s;
      -o-transition-duration: 0.5s;
  }
+
