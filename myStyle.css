@@ -33,6 +33,7 @@ h2{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c2294aa', endColorstr='#007db9e8',GradientType=0 );
 }
 
+
 .jumbotron h1 {
   color: white;
   font-family: 'Source Code Pro', monospace;
@@ -70,6 +71,12 @@ p {
 #mycarousel a {
     color: white;
     text-decoration: underline;
+}
+#mycarousel a:hover {
+  color: rgb(34, 148, 170);
+}
+#mycarousel a:active {
+  color: rgb(176, 26, 203);
 }
 
 
