@@ -277,3 +277,15 @@ input {
      transition-duration: 0.5s;
  }
 
+
+ @media screen and (max-width: 800px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
+  .jumbotron p {
+    font-size: 1.2em;
+  }
+ }
