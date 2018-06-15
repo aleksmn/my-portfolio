@@ -9,7 +9,8 @@ body {
 }
 
 h1,h2{
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: white;
   font-weight: bold;
 }
@@ -21,6 +22,7 @@ h1{
 }
 h2{
   font-size: 2em;
+  text-align: center;
 }
 
 .carousel-caption {
@@ -41,6 +43,7 @@ h2{
 
 .jumbotron {
     margin: 0;
+    padding: 30px 0 50px 0;
 }
 
 p {
@@ -58,9 +61,17 @@ p {
 	background-color: #FFE45D;
 }
 
-#contact {
-	background-color: #00ffa2;
+#about-img {
+  /* float: left; */
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 160px;
+  border-radius: 50%;
+  /* margin-right: 20px; */
 }
+
+
+
 
 /* Carousel */
 
@@ -93,7 +104,8 @@ p {
 
 
  #contact{
-    padding:10px 0 10px;
+    padding:20px 0;
+    background-color: #00ffa2;
   }
 
   .contact-text{
