@@ -2,31 +2,59 @@
 .thumb:nth-child(even){background: #fff;}
 .thumb:nth-child(odd){clear: both;}
 
-h1,h2{margin: 30px 0;}
-
 body {
-    position: relative;
-	color: #2d0030;
+  position: relative;
+  color: #2d0030;
+  font-family: 'Source Code Pro', monospace;
 }
 
-h1 {
-	text-align: center;
+h1,h2{
+  margin: 20px 0;
+  color: white;
+  font-weight: bold;
+}
+
+h1{
+  font-size: 3em;
+  text-align: center;
 	text-transform: uppercase;
+}
+h2{
+  font-size: 2em;
+}
+
+.carousel-caption {
+  bottom: 80px;
+  border-radius: 4px;
+  padding: 6px;
+  background: -moz-linear-gradient(top, rgba(34,148,170,0.36) 1%, rgba(124,185,231,0) 74%, rgba(125,185,232,0) 75%);
+  background: -webkit-linear-gradient(top, rgba(34,148,170,0.36) 1%,rgba(124,185,231,0) 74%,rgba(125,185,232,0) 75%);
+  background: linear-gradient(to bottom, rgba(34,148,170,0.36) 1%,rgba(124,185,231,0) 74%,rgba(125,185,232,0) 75%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c2294aa', endColorstr='#007db9e8',GradientType=0 );
+}
+
+.jumbotron h1 {
+  color: white;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .jumbotron {
     margin: 0;
 }
 
+p {
+  color: rgb(75, 73, 73);
+}
+
 #portfolio {
-	background-color: #51e56b;
+	background-color: #00FFA2;
 }
 .portfolioimg {
     margin-top: 10px;
 }
 
 #about {
-	background-color: #f0ef46;
+	background-color: #FFE45D;
 }
 
 #contact {
@@ -149,13 +177,16 @@ h1 {
 /* Send Button Styles */
 
   .form-btn{
-    width:180px;
+    width:220px;
     display: block;
     height: auto;
     padding:15px;
     color:#fff;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     background:#ffba00;
     border:none;
     border-radius:3px;
@@ -171,7 +202,7 @@ h1 {
   }
 
   .form-btn:hover{
-    background:#111;
+    background: #b01acb;
     color: white;
     border:none;
   }
@@ -192,7 +223,7 @@ input {
 /* Footer */
 
 #footer {
-  background-color: rgb(176, 26, 203);  
+  background-color: #b01acb;  
 }
 
 #socialbattons {
@@ -210,6 +241,7 @@ input {
      -webkit-transform: scale(1.1);
      -moz-transform: scale(1.1);
      -o-transform: scale(1.1);
+     transform: scale(1.1);
  }
  .social {
      color: white;
@@ -218,8 +250,10 @@ input {
      
      -moz-transform: scale(0.8);
      -o-transform: scale(0.8);
+     transform: scale(0.8);
      -webkit-transition-duration: 0.5s;
      -moz-transition-duration: 0.5s;
      -o-transition-duration: 0.5s;
+     transition-duration: 0.5s;
  }
 
